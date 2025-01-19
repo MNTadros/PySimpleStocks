@@ -1,6 +1,6 @@
 # Welcome to WhatIS NVDA
 
-![WhatIS NVDA](data/imgs/NVDA.png)
+![WhatIS NVDA](data/imgs/NVDA_FINAL.png)
 
 Welcome to **WhatIS NVDA**, your go-to platform for exploring all things Nvidia (NVDA). Whether you're looking for detailed stock analysis, fun facts, or the latest trends, this platform is here to help you get a clearer picture of Nvidia's role in the tech world.
 
