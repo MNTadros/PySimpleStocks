@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="WhatIS NVDA", page_icon="📊", layout="centered")
 
-st.image("./data/imgs/NVDA.png", use_container_width=False)
+st.image("./data/imgs/NVDA_FINAL.png", use_container_width=False)
 # Article: NVIDIA's Role in the Tech Sector
 
 st.header("NVIDIA's Strategic Position in the Tech World")
