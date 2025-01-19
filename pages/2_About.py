@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="About WhatIS NVDA", page_icon=":books:", layout="wide")
+st.set_page_config(page_title="About WhatIS NVDA", page_icon="📊", layout="wide")
 
 st.title("About: :rainbow[WhatIS][:green[NVDA]]")
 
@@ -8,30 +8,33 @@ st.markdown("---")
 
 st.write("""
 ### WhatIS is a platform designed to provide comprehensive information on a wide range of topics.
-Our goal is to offer clear, concise, and accurate explanations to help you understand complex subjects with ease with a little bit of humor and some data visualization.
+My goal is to offer clear, concise, and accurate explanations to help you understand complex subjects with ease, using data visualization and practical examples.
 """)
 
-st.subheader("Our Mission")
+st.subheader("About Me / Why")
 st.write("""
-Our mission is to make knowledge accessible to everyone. We believe that understanding is the key to progress, 
-and we strive to break down barriers to information by providing high-quality content that is easy to understand.
+I started WhatIS NVDA with the intention of creating a platform that simplifies learning by breaking down complex ideas into bite-sized, digestible pieces. 
+I am passionate about making information accessible to everyone, regardless of their background or prior knowledge. By focusing on clear, understandable explanations and effective visual aids, I aim to empower individuals to grasp difficult concepts and apply that knowledge in their own lives.
+""")
+
+st.write("""
+I encourage you to get involved by providing feedback, suggesting new topics, and sharing my content with others. 
+Together, I believe we can build a community of learners and knowledge seekers. Contact me below!
 """)
 
 st.subheader("What You Will Find Here")
 st.write("""
 - Access to more detailed articles on various topics
-- Some fun facts about the topic
-- Up-to-date information and updates
-- Interactive tools and features to enhance your learning experience
+- Visual aids like charts, graphs, and diagrams to help clarify concepts
+- Useful definitions and relevant (in my opinion) information
 """)
 
-st.subheader("Get Involved")
 st.write("""
-We encourage you to get involved by providing feedback, suggesting new topics, and sharing our content with others. 
-Together, we can build a community of learners and knowledge seekers. Contact us below!
+I encourage you to get involved by providing feedback, suggesting new topics, and sharing my content with others. 
+Together, I believe we can build a community of learners and knowledge seekers. Contact me below!
 """)
 
-st.markdown("### Contact Us")
+st.markdown("### Contact Me")
 
 form_css = """
 <style>
@@ -61,7 +64,7 @@ button:hover {
 """
 st.markdown(form_css, unsafe_allow_html=True)
 
-# Add the contact form
+# Contact form
 contact_form = """
 <form action="https://formsubmit.co/3fe49783a31e2c06d7bea8b630e73076" method="POST">
     <input type="hidden" name="_captcha" value="false">
